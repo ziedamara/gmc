@@ -1,0 +1,46 @@
+body {
+    font-size: 20px;
+    box-sizing: border-box;
+    }
+    *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    }
+    .main {
+    border: 1px solid rgb(34, 156, 255);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 75%, rgba(244,244,244,1) 100%);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    }
+    .textview {
+    width: 100%;
+    height: 80px;
+    font-size: 66px;
+    border: 1px solid rgb(34, 156, 255);
+    border-radius: 5px;
+    background-color: #1c1d1f;
+    color: #ffffff;
+    text-align: right;
+    padding-left: 25px;
+    padding-right: 15px;
+    }
+    .button {
+    height: 70px;
+    width: 70px;
+    margin-left: 5%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 75%, rgba(244,244,244,1) 100%);
+    border: 1px solid rgb(34, 156, 255);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #1c1d1f;
+    }
+    .button:hover {
+    background:#c0c0c0 ;
+    }
