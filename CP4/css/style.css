@@ -1,0 +1,27 @@
+.col-xl {
+    background-color: darkgreen;
+    color: white;
+    height: 30px;
+}
+.blue {
+    background-color: blue;
+    color: white;
+    height: 50px;
+}
+.col-1 {
+    background-color: yellow;
+    height: 250px;
+}
+.col-2{
+    background-color: rgb(197, 57, 32);
+    height: 250px;
+}
+.col-3 {
+    background-color: rgb(153, 22, 114);
+    height: 250px;
+}
+.red {
+    background-color: tomato;
+    height: 100px;
+    margin-bottom: 20px;
+}
