@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Firebase</title>
+</head>
+<body>
+<h2>Product</h2>
+<form id="product">
+    <label for="pc-name">Laptop Name: </label><br>
+    <input id="pc-name" name="pc-name" type="text"><br>
+    <label for="pc-ram">Laptop RAM (GB): </label><br>
+    <input id="pc-ram" name="pc-ram" type="number"><br>
+    <label for="pc-cpu">Laptop CPU: </label><br>
+    <input id="pc-cpu" name="pc-cpu" type="text"><br>
+    <label for="pc-company">Laptop Company: </label><br>
+    <input id="pc-company" name="pc-company" type="text"><br>
+    <label for="url">Picture URL: </label><br>
+    <input id="url" name="url" type="url"><br>
+    <br>
+    <input type="submit" value="upload">
+</form>
+
+<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js"></script>
+
+<script src="js\main.js"></script>
+
+</body>
+</html>
